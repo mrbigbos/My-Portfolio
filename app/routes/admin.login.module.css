@@ -1,0 +1,85 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--color-accent-2) 0%, var(--color-neutral-2) 100%);
+  padding: var(--space-6);
+}
+
+.loginCard {
+  background: var(--color-neutral-1);
+  padding: var(--space-8);
+  border-radius: var(--radius-4);
+  box-shadow: var(--shadow-4);
+  width: 100%;
+  max-width: 450px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--space-6);
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--color-accent-9) 0%, var(--color-accent-10) 100%);
+  border-radius: var(--radius-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-accent-contrast);
+  margin: 0 auto var(--space-4);
+}
+
+.header h1 {
+  font: var(--font-heading);
+  color: var(--color-neutral-12);
+  margin: 0 0 var(--space-2) 0;
+}
+
+.header p {
+  color: var(--color-neutral-11);
+  margin: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.formGroup label {
+  color: var(--color-neutral-12);
+  font-weight: 500;
+}
+
+.errorMessage {
+  padding: var(--space-3);
+  background: var(--color-error-3);
+  color: var(--color-error-11);
+  border-radius: var(--radius-2);
+  font-size: var(--font-size-0);
+}
+
+.footer {
+  margin-top: var(--space-6);
+  text-align: center;
+}
+
+.footer a {
+  color: var(--color-accent-9);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: var(--color-accent-10);
+}
